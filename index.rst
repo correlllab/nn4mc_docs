@@ -7,4 +7,4 @@ NN4MC Documentation
    :maxdepth: 2
 
    nn4mc_py/docs/index
-   nn4mc_cpp/docs/index
+   nn4mc_cpp/docs/source/index
