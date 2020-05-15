@@ -1,6 +1,3 @@
-[submodule "nn4mc_py"]
-	path = nn4mc_py
-	url = https://github.com/correlllab/nn4mc_py.git
 [submodule "nn4mc_web"]
 	path = nn4mc_web
 	url = https://github.com/correlllab/nn4mc_web.git
