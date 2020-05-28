@@ -10,8 +10,11 @@ Welcome to nn4mc's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   nn4mc_py/docs_test/index
+   source/introduction
    nn4mc_cpp/docs_test/index
+   nn4mc_py/docs_test/index
+   source/tutorials
+   source/examples
 
 Indices and tables
 ==================

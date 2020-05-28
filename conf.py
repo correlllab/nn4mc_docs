@@ -18,8 +18,8 @@
 # -- Project information -----------------------------------------------------
 
 project = 'nn4mc'
-copyright = '2020, Cooper Simpson, Sarah Aquasvivas-Manzano'
-author = 'Cooper Simpson, Sarah Aquasvivas-Manzano'
+copyright = '2019, Correll Robotics Lab'
+author = 'Correll Robotics Lab'
 
 
 # -- General configuration ---------------------------------------------------
@@ -27,7 +27,10 @@ author = 'Cooper Simpson, Sarah Aquasvivas-Manzano'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
+import sphinx_rtd_theme
 extensions = [
+    ...
+    'sphinx_rtd_theme',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -36,7 +39,7 @@ templates_path = ['_templates']
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = []
+exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 
 # -- Options for HTML output -------------------------------------------------
@@ -58,3 +61,25 @@ master_doc = 'index'
 
 # Specify source file type
 source_suffix = '.rst'
+
+# -- Options for HTMLHelp output ---------------------------------------------
+
+# Output file base name for HTML help builder.
+htmlhelp_basename = 'nn4mcdoc'
+
+# -- Options for Epub output -------------------------------------------------
+
+# Bibliographic Dublin Core info.
+epub_title = project
+
+# The unique identifier of the text. This can be a ISBN number
+# or the project homepage.
+#
+# epub_identifier = ''
+
+# A unique identification for the text.
+#
+# epub_uid = ''
+
+# A list of files that should not be packed into the epub file.
+epub_exclude_files = ['search.html']
