@@ -11,7 +11,7 @@ Welcome to nn4mc's documentation!
    :caption: Contents:
 
    nn4mc_py/docs_test/index
-   nn4mc_cpp/docs/source/index
+   nn4mc_cpp/docs_test/index
 
 Indices and tables
 ==================
