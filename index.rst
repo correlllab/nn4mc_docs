@@ -3,18 +3,42 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to nn4mc's documentation!
-=================================
+Neural Networks for Microcontrollers: NN4MC
+===========================================
+
+`nn4mc` is a software package that builds C code for neural networks to run on off-the-shelf microcontrollers!
 
 .. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+    :maxdepth: 2
+    :caption: NN4MC
 
-   source/introduction
-   nn4mc_cpp/docs/index
-   nn4mc_py/docs/index
-   source/tutorials
-   source/examples
+    source/about
+
+.. toctree::
+    :maxdepth: 2
+    :caption: C++
+
+    nn4mc_cpp/docs/index
+    nn4mc_cpp/docs/installation
+    nn4mc_cpp/docs/usage
+    nn4mc_cpp/docs/dev
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Python
+
+    nn4mc_py/docs/index
+    nn4mc_py/docs/installation
+    nn4mc_py/docs/usage
+    nn4mc_py/docs/dev
+
+.. toctree::
+    :maxdepth: 2
+    :caption: Examples
+
+    source/examples
+    source/tutorials
+
 
 Indices and tables
 ==================
