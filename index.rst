@@ -11,8 +11,8 @@ Welcome to nn4mc's documentation!
    :caption: Contents:
 
    source/introduction
-   nn4mc_cpp/docs_test/index
-   nn4mc_py/docs_test/index
+   nn4mc_cpp/docs/index
+   nn4mc_py/docs/index
    source/tutorials
    source/examples
 
